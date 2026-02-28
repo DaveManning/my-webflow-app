@@ -2,7 +2,7 @@
   "name": "my-webflow-app",
   "version": "1.0.0",
   "scripts": {
-    "build": "mkdir -p dist && cp index.html dist/"
+    "build": "node -e \"const fs = require('fs'); if (!fs.existsSync('dist')){ fs.mkdirSync('dist'); } fs.copyFileSync('index.html', 'dist/index.html');\""
   },
   "dependencies": {
     "react": "^18.0.0",
