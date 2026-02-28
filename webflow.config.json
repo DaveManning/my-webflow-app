@@ -1,0 +1,4 @@
+{
+  "publicDir": "dist",
+  "buildScript": "npm run build"
+}
