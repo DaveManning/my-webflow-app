@@ -1,4 +1,6 @@
 {
-  "publicDir": "dist",
-  "buildScript": "npm run build"
+  "cosmic": {
+    "publicDir": "dist",
+    "buildScript": "npm run build"
+  }
 }
