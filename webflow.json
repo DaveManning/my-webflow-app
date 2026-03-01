@@ -1,9 +1,0 @@
-{
-  "cosmic": {
-    "framework": "static",
-    "config": {
-      "publicDir": "dist",
-      "buildScript": "npm run build"
-    }
-  }
-}
