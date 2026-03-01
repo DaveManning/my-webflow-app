@@ -1,11 +1,5 @@
 {
-  "cosmic": {
-    "framework": {
-      "type": "custom",
-      "config": {
-        "publicDir": "dist",
-        "buildScript": "npm run build"
-      }
-    }
-  }
+  "framework": "custom",
+  "publicDir": "dist",
+  "buildScript": "npm run build"
 }
