@@ -2,10 +2,13 @@
   "name": "my-webflow-app",
   "version": "1.0.0",
   "scripts": {
-    "build": "node -e \"const fs = require('fs'); if (!fs.existsSync('dist')){ fs.mkdirSync('dist'); } fs.copyFileSync('index.html', 'dist/index.html');\""
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
   "dependencies": {
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0"
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
   }
 }
