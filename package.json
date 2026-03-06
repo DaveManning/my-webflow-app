@@ -7,9 +7,9 @@
     "start": "next start"
   },
   "dependencies": {
-    "next": "14.2.3",
+  "@opennextjs/cloudflare": "^1.3.0"
+"next": "14.2.35",
     "react": "^18",
-    "react-dom": "^18",
-    "@opennextjs/cloudflare": "^0.2.0"
+    "react-dom": "^18"
   }
 }
