@@ -1,6 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  trailingSlash: true,
+  // Disables automatic redirects so it doesn't fight with Webflow
+  skipTrailingSlashRedirect: true,
+  // Required for the Webflow Cloud edge runtime
   output: 'standalone',
 };
 
