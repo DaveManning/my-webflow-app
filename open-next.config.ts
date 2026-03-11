@@ -17,5 +17,3 @@ const config = {
 };
 
 export default config;
-// Add this line below to ensure compatibility
-module.exports = config;
