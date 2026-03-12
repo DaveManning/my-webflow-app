@@ -1,6 +1,6 @@
 import type { OpenNextConfig } from "@opennextjs/cloudflare";
 
-export default {
+const config: OpenNextConfig = {
   default: {
     override: {
       wrapper: "cloudflare-node",
@@ -16,4 +16,6 @@ export default {
       proxyExternalRequest: "fetch",
     },
   },
-} satisfies OpenNextConfig;
+};
+
+export default config;
